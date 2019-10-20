@@ -25,7 +25,7 @@ class ROIBoxHead(torch.nn.Module):
         """
         Arguments:
             features (list[Tensor]): feature-maps from possibly several levels
-            proposals (list[BoxList]): proposal boxes
+            proposals (list[BoxList]): proposal boxes whose length is batch size
             targets (list[BoxList], optional): the ground-truth targets.
 
         Returns:

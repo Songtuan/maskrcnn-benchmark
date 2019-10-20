@@ -92,7 +92,7 @@ class Pooler(nn.Module):
         """
         Arguments:
             x (list[Tensor]): feature maps for each level
-            boxes (list[BoxList]): boxes to be used to perform the pooling operation.
+            boxes (list[BoxList]): boxes to be used to perform the pooling operation / proposals.
         Returns:
             result (Tensor)
         """
